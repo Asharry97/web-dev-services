@@ -1,0 +1,36 @@
+Test Snippets
+
+
+<div class="col-md-5">
+    <div class="img-fills" style="position: relative;">
+        <img src="imgs/templates/Learn_and_Develop.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="">
+        <!--<img src="imgs/templates/Learn_By_Doing.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="Learn By Doing">
+        <img src="imgs/templates/Then_Develop.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px; position: absolute; opacity: 0.6; left: 0;" alt="Learn By Doing"> -->
+    </div>                            
+</div>
+
+
+Our Motive
+Our Motive relies in helping others specically in the area of IT. 
+
+In Web Development, specically we do not use CMS, we build the project from group up using HTML CSS (CSS Frameworks & Libs), JS (JS Frameworks & Libs). so that we can provide as much customization as we can. 
+
+One of our important motive is to give our services at as low cost as possible, and therefore we try to utilize the Open-Source Softwares and Solution, we utilize the online freely available resources of our projects (taking care that we do not voilate any copyrights or licenses).
+We try to develop mostly from the free resources and hence reduce the overall cost of the project.
+
+
+Our Motive relies in helping others specically in the area of IT.   <br>
+                                    In Web Development, specically we do not use CMS, we build the project from ground up, using HTML CSS (CSS Frameworks & Libs), JS (JS Frameworks & Libs). so that we can provide as much customization as we can...    
+
+
+
+<li class="list-group-item">We tried to create the website as simple, easy to understand & easy to access</li>
+<li class="list-group-item">Since No Animation as such were required, we did not intend to add any</li>
+<li class="list-group-item">We sat with the <strong> MJ & Associates </strong> Team to understand their requirement and develop website as easy and simple as it can be.</li>
+<li class="list-group-item">We reviewed the website with the team and did all customization and changes as and when they require it to be done</li>
+<li class="list-group-item">We reduced the cost of the project to very minimum by using resources freely available, Hosting on Github Pages</li>
+<li class="list-group-item">The Cost Incurred is only for the domain Purchase and the Developement Efforts not extra Charges were taken or incurred.</li>
+<li class="list-group-item">The Client was extremely happy with the Website and it also Ranks Top without any SEO Services. Search Us on Google as `mj & associate law` you will find it at the top. </li>
+<li class="list-group-item">We Maintain the website and help them in any changes that they require</li>
+<li class="list-group-item">We have helped them setup their Domain, Email.</li>
+<li class="list-group-item">The Website is HTTPS(Strict), again no Extra Charges where incurred</li>

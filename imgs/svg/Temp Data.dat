@@ -1,0 +1,704 @@
+Temp Data
+<!-- Featured Projects -->
+ <div class="featured-projects-content">
+    <div class="container">
+        
+        <div class="featured-projects-content-inner" style="padding: 40px 0px;">
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+                <div class="col">
+                    <div class="card h-100">
+                        <div>
+
+                            <div id="carouselExampleCaptions2" class="carousel slide" data-bs-ride="carousel">
+                
+                                <div class="carousel-indicators">
+                                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="3" class="active" aria-current="true" aria-label="Slide 1"></button>
+                                  <button type="button" data-bs-target="#carouselExampleCaptions2" data-bs-slide-to="4" aria-label="Slide 2"></button>
+                                  
+                                </div>
+        
+                                <div class="carousel-inner">
+                                    
+
+                                    <div class="carousel-item active">
+                                        <img src="imgs/projects/mjassociates/1.png" class="d-block w-100" height="280px" style="object-fit: contain;" alt="...">
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="imgs/projects/mjassociates/2.png" class="d-block w-100" alt="..." height="280px" style="object-fit: contain;" >
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="imgs/projects/mjassociates/3.png" class="d-block w-100" alt="..." height="280px" style="object-fit: contain;" >
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>First slide label</h5>
+                                            <p>Some representative placeholder content for the first slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="imgs/projects/mjassociates/4.png" class="d-block w-100" alt="..." height="280px" style="object-fit: contain;" >
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Second slide label</h5>
+                                            <p>Some representative placeholder content for the second slide.</p>
+                                        </div>
+                                    </div>
+                                    <div class="carousel-item">
+                                        <img src="imgs/projects/mjassociates/5.png" class="d-block w-100" alt="..." height="280px" style="object-fit: contain;" >
+                                        <div class="carousel-caption d-none d-md-block">
+                                            <h5>Third slide label</h5>
+                                            <p>Some representative placeholder content for the third slide.</p>
+                                        </div>
+                                    </div>
+
+                                </div>
+        
+                                <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions2"  data-bs-slide="prev">
+                                  <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Previous</span>
+                                </button>
+        
+                                <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions2"  data-bs-slide="next">
+                                  <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                                  <span class="visually-hidden">Next</span>
+                                </button>
+                            </div>
+                            
+                        </div>
+                        <div class="card-body">
+                            <h5 class="card-title">Frontend</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imgs/svg/backend.png" class="card-img-top" alt="Backend" width=80 height=80 style="object-fit: contain; margin: 8px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Backend</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imgs/svg/security.png" class="card-img-top" alt="Security" width=80 height=80 style="object-fit: contain; margin: 8px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Security</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imgs/svg/soft-skills.png" class="card-img-top" alt="Soft Skills" width=80 height=80 style="object-fit: contain; margin: 8px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Soft Skills</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+
+
+Quotes:
+
+I always wanted to understand how Internet works,
+
+
+
+<div class="card" style="max-width: 540px;">
+    <div class="card-header">
+      <h3>MJ Associates</h3>
+    </div>
+    <div class="card-body">
+      <h5 class="card-title">Skilled & Eager To Help</h5>
+      <p class="card-text">Ashish Helped us build our business, created and Manged our Website</p>
+      <a href="https://www.mjassociate.co.in/" class="btn btn-primary">Go To Website</a>
+    </div>
+</div>
+
+ <!-- Featured Projects v2 -->
+ <div class="featured-projects-content">
+    <div class="container">
+        
+        <div class="featured-projects-content-inner" style="padding: 40px 0px; margin: 40px 0px;">
+            
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div style="display: flex; flex-direction: column; background-clip: border-box; border: 1px solid rgba(0,0,0,.125); border-radius: .25rem;" class="shadow">
+                        <img src="imgs/projects/mjassociates/company_logo.png" class="card-img-top" alt="Backend" style="object-fit: cover;">
+                        <img src="imgs/projects/mjassociates/company_website.png" class="card-img-top" alt="Backend" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">MJ & Associates</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">TechEnd Handling</h6>
+                            <p class="card-text">
+                                <h6>INTRO:</h6>
+                                MJ & Associates (Advocates & Consultants) consists of Attorneys expertise in different areas of law. Our associates include Legal Advisors, Chartered Accountants (CA) & Company Secretaries (CS).
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                Website Development
+                            </li>
+                            <li class="list-group-item">
+                                Domain & Email Setup 
+                            </li>
+                            <li class="list-group-item">
+                                Maintainence
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.mjassociate.co.in/" target="_blank" class="btn btn-secondary">Explore</a></small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row g-0">
+                <div class="col-md-4">
+                    <div style="display: flex; flex-direction: column; background-clip: border-box; border: 1px solid rgba(0,0,0,.125); border-radius: .25rem;" class="shadow">
+                        <h4> Dns Filter  </h4>
+                        <img src="imgs/projects/colg_dnsfilter/proj_website.png" class="card-img-top" alt="Backend" style="object-fit: cover;">
+                    </div>
+                </div>
+                <div class="col-md-8">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">MJ & Associates</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">TechEnd Handling</h6>
+                            <p class="card-text">
+                                <h6>INTRO:</h6>
+                                MJ & Associates (Advocates & Consultants) consists of Attorneys expertise in different areas of law. Our associates include Legal Advisors, Chartered Accountants (CA) & Company Secretaries (CS).
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                Website Development
+                            </li>
+                            <li class="list-group-item">
+                                Domain & Email Setup 
+                            </li>
+                            <li class="list-group-item">
+                                Maintainence
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.mjassociate.co.in/" target="_blank" class="btn btn-secondary">Explore</a></small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                                
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Featured Projects -->
+<div class="featured-projects-content">
+    <div class="container">
+        
+        <div class="featured-projects-content-inner" style="padding: 40px 0px;">
+            
+            <div class="row row-cols-1 row-cols-md-3 g-4">
+                
+                <div class="col">
+
+                    <div class="card h-100">
+                        <img src="imgs/projects/mjassociates/company_logo.png" class="card-img-top" alt="Backend" style="object-fit: cover;">
+                        <img src="imgs/projects/mjassociates/company_website.png" class="card-img-top" alt="Backend" style="object-fit: cover;">
+                        <div class="card-body">
+                            <h5 class="card-title">Techend Handling </h5>
+                            <p class="card-text">MJ & Associates (Advocates & Consultants) consists of Attorneys expertise in different areas of law. Our associates include Legal Advisors, Chartered Accountants (CA) & Company Secretaries (CS).</p>
+                        </div>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.mjassociate.co.in/" class="btn btn-secondary">Explore</a></small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imgs/svg/backend.png" class="card-img-top" alt="Backend" width=80 height=80 style="object-fit: contain; margin: 8px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Backend</h5>
+                            <p class="card-text">This card has supporting text below as a natural lead-in to additional content.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imgs/svg/security.png" class="card-img-top" alt="Security" width=80 height=80 style="object-fit: contain; margin: 8px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Security</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This card has even longer content than the first to show that equal height action.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+                <div class="col">
+                    <div class="card h-100">
+                        <img src="imgs/svg/soft-skills.png" class="card-img-top" alt="Soft Skills" width=80 height=80 style="object-fit: contain; margin: 8px;">
+                        <div class="card-body">
+                            <h5 class="card-title">Soft Skills</h5>
+                            <p class="card-text">This is a wider card with supporting text below as a natural lead-in to additional content. This content is a little bit longer.</p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">An item</li>
+                            <li class="list-group-item">A second item</li>
+                            <li class="list-group-item">A third item</li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted">Last updated 3 mins ago</small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+            
+        </div>
+
+    </div>
+</div>
+
+
+<!-- Featured Projects v2 -->
+<div class="featured-projects-content">
+    <div class="container">
+        
+        <div class="featured-projects-content-inner" style="padding: 40px 0px; margin: 40px 0px;">
+            
+            <div class="row g-4 mb-4">
+                <div class="col-md-4">
+                    
+                    <div id="carouselExampleControls3" class="carousel slide shadow" style="border-radius: 5%;" data-bs-ride="carousel">
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/projects/mjassociates/company_website.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/mjassociates/1.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/mjassociates/3.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/mjassociates/3.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/mjassociates/4.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/mjassociates/5.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls3"  data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls3"  data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+                </div>
+                <div class="col-md-8">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            
+                            <p class="card-text">
+                                <h6>INTRO:</h6>
+                                MJ & Associates (Advocates & Consultants) consists of Attorneys expertise in different areas of law. Our associates include Legal Advisors, Chartered Accountants (CA) & Company Secretaries (CS).
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                Website Development
+                            </li>
+                            <li class="list-group-item">
+                                Domain & Email Setup 
+                            </li>
+                            <li class="list-group-item">
+                                Maintainence
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.mjassociate.co.in/" target="_blank" class="btn btn-secondary">Explore</a></small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+
+
+            <div class="row g-4">
+                <div class="col-md-4">
+                    
+                    <div id="carouselExampleControls4" class="carousel slide shadow" style="border-radius: 5%;" data-bs-ride="carousel">
+                        
+                        <div class="carousel-inner">
+                            <div class="carousel-item active">
+                                <img src="imgs/projects/colg_dnsfilter/proj_website.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/colg_dnsfilter/1.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/colg_dnsfilter/2.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/colg_dnsfilter/3.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                            <div class="carousel-item">
+                                <img src="imgs/projects/colg_dnsfilter/4.png" class="d-block w-100 h-400-s" alt="...">
+                            </div>
+                        </div>
+                        
+                        <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleControls4"  data-bs-slide="prev">
+                            <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Previous</span>
+                        </button>
+                        <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleControls4"  data-bs-slide="next">
+                            <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                            <span class="visually-hidden">Next</span>
+                        </button>
+                    </div>
+
+
+                </div>
+                <div class="col-md-8">
+                    <div class="card h-100">
+                        <div class="card-body">
+                            <h5 class="card-title">MJ & Associates</h5>
+                            <h6 class="card-subtitle mb-2 text-muted">TechEnd Handling</h6>
+                            <p class="card-text">
+                                <h6>INTRO:</h6>
+                                MJ & Associates (Advocates & Consultants) consists of Attorneys expertise in different areas of law. Our associates include Legal Advisors, Chartered Accountants (CA) & Company Secretaries (CS).
+                            </p>
+                        </div>
+                        <ul class="list-group list-group-flush">
+                            <li class="list-group-item">
+                                Website Development
+                            </li>
+                            <li class="list-group-item">
+                                Domain & Email Setup 
+                            </li>
+                            <li class="list-group-item">
+                                Maintainence
+                            </li>
+                        </ul>
+                        <div class="card-footer">
+                            <small class="text-muted"><a href="https://www.mjassociate.co.in/" target="_blank" class="btn btn-secondary">Explore</a></small>
+                        </div>
+                    </div>
+                </div>
+
+            </div>
+                                
+        </div>
+
+    </div>
+</div>
+
+
+ <!-- Intro With Profile: Resume Header -->
+ <div class="intro-row card">
+    <div class="d-flex g-0">
+        <div class="profile-img">
+            <img src="imgs/profile.jpg" width=100% height=100% style="object-fit: contain; width: 220px; height: auto;" alt="...">
+        </div>
+        <div class="intro-details">
+            <div class="card-body">
+                <h1 class="card-title" style="text-transform:uppercase;">Ashish R Bhandari</h1>
+                <h3 class="card-subtitle mb-2 text-muted"> Security Engineer </h3>
+                <p class="card-text">
+                   <ul>
+                       <li>a@a.com</li>
+                       <li>+01010101</li>
+                   </ul>
+                </p>
+            </div>
+        </div>
+    </div>
+</div>
+<!-- ENDS: Intro With Profile: Resume Header -->
+
+
+<div class="career-summary">
+    <div class="card">
+        <div class="card-body">
+            <p class="card-text">
+                I have helped them by building few attachable modules like the Registration form, Backend Configuration & Setup.
+                Lorem ipsum dolor sit amet consectetur adipisicing elit. Harum, esse ex possimus tempora ea dolore modi quidem non id illo quae labore tempore neque necessitatibus consectetur nemo. Ab, excepturi perferendis.
+                Odit eaque repellendus consequatur soluta iure quia vero ipsam obcaecati maxime, ipsum, nisi tempore? Labore a natus, laudantium adipisci dolorum ipsa harum ratione velit, voluptate nulla quae id, pariatur amet.
+                Natus dolor, earum tempora illum atque nisi animi aperiam reprehenderit commodi veritatis sed expedita hic quos exercitationem eos cupiditate voluptate, voluptatem alias ullam odio suscipit! Dolorem, obcaecati velit! Minus, placeat.
+            </p>
+        </div>
+    </div>
+</div>
+
+
+
+Testing using OWASP Top 10 Methodology
+Internal Application Security Testing (Burp Suite, Fiddler, Postman, MitmProxy, Curl & Manual Approach)
+Leading Multiple Projects and Team
+Product Demonstration To Client
+New Product Configuration and Deployment
+LDAP/ICAP Configuration & Integration with Product
+Product Configuration Review
+Testing the SafeSquid-SWG for any kind of Functionality and Security related Bugs.
+Testing Includes:  SSL Inspection related bugs. DLP related bugs, XSS, Fuzzing.
+Product Plug-in Development (JavaScript, Python, Bash)
+
+
+
+<div class="col-md-4">
+    <h4>Skills & Tools</h4>
+    <hr>
+    <ul>
+        <li>
+            <span class="d-badge d-b-b">Web Dev(Frontend+Backend)</span>
+        </li>
+        <li>Python</li>
+        <li>JavaScript</li>
+        <li>NodeJS</li>
+        <li>Scripting</li>
+        <li>Linux</li>
+        <li>Code Review</li>
+    </ul>
+
+    <ul>
+        <li>Curl</li>
+        <li>BurpSuite</li>
+        <li>OpenSSL</li>
+        <li>Fiddler</li>
+        <li>MITM Proxy</li>
+        <li>Java Lucene</li>
+    </ul>
+
+</div>
+
+
+<script defer>
+    let hire_me = document.querySelector(".hire-me");
+    hire_me.addEventListener('click', (event) => {
+        let hire_me_show = document.querySelector(".hire-me-show");
+        hire_me_show_opacity = hire_me_show.style.opacity;
+        if (hire_me_show_opacity === "0") {
+            hire_me_show.style.opacity = 1;
+        } else {
+            hire_me_show.style.opacity = 0;
+        }
+    });
+</script>
+
+
+
+
+ <div class="row">
+    <div class="col-md-5">
+
+
+        <ul class="list-group review-user-list">
+            <li class="list-group-item active" aria-current="true" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0">An active item</li>
+            <li class="list-group-item" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1">A second item</li>
+            <li class="list-group-item" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2">A third item</li>
+            <li class="list-group-item" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3">A fourth item</li>
+        </ul> 
+
+        <script defer>
+            let review_users_list = document.querySelectorAll(".review-user-list li");
+            review_users_list.forEach((one_li) => {
+                one_li.addEventListener('click', function(event) {
+                    console.log("Click Event: ", this);
+                    review_users_list.forEach((one__li) => { one__li.classList.remove("active")  });
+                    this.classList.add("active");
+                });
+            })
+        </script>
+
+    </div>
+
+    <div class="col-md-7">
+
+        <div id="carouselExampleCaptions" class="carousel carousel-dark slide carousel-fade" data-bs-ride="carousel" style="max-width: 640px; height: 500px;">
+    
+            <div class="carousel-indicators">
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="0" class="active" aria-current="true" aria-label="Slide 1"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="1" aria-label="Slide 2"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="2" aria-label="Slide 3"></button>
+                <button type="button" data-bs-target="#carouselExampleCaptions" data-bs-slide-to="3" aria-label="Slide 4"></button>
+            </div>
+
+            <div class="carousel-inner">
+                
+                <div class="carousel-item active">
+                    
+                        <div class="card" style="max-width: 640px; height: 380px; margin-top: 60px;">
+                            <div class="card-header bg-dark text-white" style="position: absolute; left: -20px; top: 10px;">
+                                #Passionate
+                            </div>
+                            <img src="imgs/client_profiles/Adv.Jay_Lathigara_Friend_Profile.jpg" width="100px" height="100px" style="border-radius: 50%; position: absolute;left: 40%; top: -10%; object-fit: cover;" alt="">
+                            <div class="card-body" style="margin-top: 50px;">
+                                <blockquote class="blockquote mb-0 ms-auto" style="margin-top: auto;">
+                                    <p>
+                                        “I think the website is GREAT! It is easy to follow along and definitely convienent because you can pull the information up whenever you need to“. <br>
+                                        Ashish is a true entrepreneur. He’s passionate about helping companies find, build and grow their next big idea.
+                                    </p>
+                                    <footer class="blockquote-footer">Adv. Jay Lathigara from <cite title="Source Title">MJ & Associates</cite></footer>
+                                </blockquote>
+                            </div>
+                        </div>
+                    
+                </div>
+
+                <div class="carousel-item">
+                    
+                    <div class="card" style="max-width: 640px; height: 380px; margin-top: 60px;">
+                        <div class="card-header bg-dark text-white" style="position: absolute; left: -20px; top: 10px;">
+                            #Passionate
+                        </div>
+                        <img src="imgs/svg/default_profile.svg" width="100px" height="100px" style="border-radius: 50%; position: absolute;left: 40%; top: -10%; object-fit: cover;" alt="">
+                        <div class="card-body" style="margin-top: 50px;">
+                            <blockquote class="blockquote mb-0">
+                                <p>
+                                    I have worked with many freelancers in the past but Ashish stands out from the rest. We hired him based on his current portfolio and we are happy that we choose him. He is so co-operative which you will not see in other free lancers. <br>
+                                    Personally, i would like to recommend him to anyone looking for any kind of digital work - web development, SEO, digital marketing, branding or mobile app development services. Keep it up!!
+                                </p>
+                                <footer class="blockquote-footer">Pradip Yadav from <cite title="Source Title">Sales manager at Group Satellite</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+                
+                </div>
+                
+                <div class="carousel-item">
+                    
+                    <div class="card" style="max-width: 640px; height: 380px; margin-top: 60px;">
+                        <div class="card-header bg-dark text-white" style="position: absolute; left: -20px; top: 10px;">
+                            #KuchToKartaHae
+                        </div>
+                        <img src="imgs/profile-nobg.jpg" width="100px" height="100px" style="border-radius: 50%; position: absolute;left: 40%; top: -10%; object-fit: cover;" alt="">
+                        <div class="card-body" style="margin-top: 50px;">
+                            <blockquote class="blockquote mb-0">
+                                <p>
+                                    uam accusamus rem expedita officiis quaerat illo quos ipsum, eos ullam cupiditate nostrum necessitatibus molestias? us optio quo facere. <br>
+                                    Amet corporis totam dquam, iusto omnis vel obcaecati, tenetur dolores necessitatibus cum aperia
+                                </p>
+                                <footer class="blockquote-footer">Ashish from <cite title="Source Title">Nowhere</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                </div>
+
+                <div class="carousel-item">
+                    
+                    <div class="card" style="max-width: 640px; height: 380px; margin-top: 60px;">
+                        <div class="card-header bg-dark text-white" style="position: absolute; left: -20px; top: 10px;">
+                            #HardWorking
+                        </div>
+                        <img src="imgs/client_profiles/Adv.Prashant_B._Khadpe_Friend_Profile.jpg" width="100px" height="100px" style="border-radius: 50%; position: absolute;left: 40%; top: -10%; object-fit: cover;" alt="">
+                        <div class="card-body" style="margin-top: 50px;">
+                            <blockquote class="blockquote mb-0">
+                                <p>
+                                    Lorem ipsum dolorit t inventore illum q iusto provident, reiciendis porr perferendis sint magnam deserunt corrupti voluptates harum explicabo? <br>
+                                    nsectetur adipisicing elit. Dolor sius culpa amet inventore illum quos iusto provident, reiciendis porro. Fugit perferen
+                                </p>
+                                <footer class="blockquote-footer">Adv. Prashant B. Khadpe from <cite title="Source Title">MJ & Associates</cite></footer>
+                            </blockquote>
+                        </div>
+                    </div>
+
+                </div>
+                
+            </div>
+
+            <button class="carousel-control-prev" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="prev">
+                <span class="carousel-control-prev-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Previous</span>
+            </button>
+
+            <button class="carousel-control-next" type="button" data-bs-target="#carouselExampleCaptions"  data-bs-slide="next">
+                <span class="carousel-control-next-icon" aria-hidden="true"></span>
+                <span class="visually-hidden">Next</span>
+            </button>
+
+        </div>
+
+    </div>
+</div>

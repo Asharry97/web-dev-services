@@ -1,0 +1,1163 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Web Dev Services</title>
+
+    <!-- Favicon -->
+    <link rel="shortcut icon" type="image/jpg" href="imgs/svg/learn_dev_happy_3.svg"/>
+
+    <!-- BSv5 Beta 2 CSS -->
+    <link rel="stylesheet" href="css/bootstrap.v5-beta2.min.css">
+
+    <!-- Custom CSS -->
+    <link rel="stylesheet" href="css/index.css">
+    
+    <!-- Google Fonts ( JetBrains Mono ) -->
+    <!-- 
+        <link rel="preconnect" href="https://fonts.gstatic.com">
+        <link href="https://fonts.googleapis.com/css2?family=JetBrains+Mono:wght@200;400;500;700&display=swap" rel="stylesheet">
+    -->
+
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins&display=swap" rel="stylesheet">
+
+
+    <!-- BSv5 Beta 2 JS -->
+    <script src="js/bootstrap.v5-beta2.bundle.min.js"></script>
+
+    <!-- Custom JS -->
+    <script src="js/index.js" defer></script>
+
+    <style>
+        
+
+        .services-details-inner .card {
+            /*border: 1px solid var(--bs-primary);*/
+            border-left: 4px solid var(--bs-primary);
+            overflow: hidden;
+        }
+
+        .card-float {
+            position: absolute;
+            right: -160px;
+            top: 10px;
+            transition: right 0.6s ease-in-out;
+        }
+
+        .card:hover .card-float {
+            right: 10px;
+        }
+
+        .dev-stack {
+            margin-bottom: 10px;
+        }
+        
+        .dev-stack-details-inner .card {
+            border: 2px solid var(--bs-primary);
+        }
+        
+        .dev-stack .card {
+            box-shadow: none!important;
+            transition: box-shadow 0.4s, transform 0.3s;
+        }
+
+        .dev-stack .card:hover {
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+            transform: scale(1.05);
+        }
+
+        .navbar-brand .c-logo {
+            transition: color 0.4s, transform 0.4s;
+        }
+
+        .navbar-brand .c-logo:hover {
+            /*color: #000;*/
+            transform: scale(1.08);
+        }
+
+        ._img-bg {
+            transition: opacity 0.6s;
+        }
+
+        .img-fills:hover ._img-bg {
+            opacity: 1!important;
+        }
+
+        .name-caps-1 {
+            font-size: 32px;
+            font-weight: 900;
+        }
+
+        main > div {
+            padding: 80px 0!important;
+        }
+
+        main > div:nth-child(2n) {
+            background: #f9f9f9;
+        }
+
+        .mj-assocaite-proj-img-show:hover {
+            content: url(imgs/projects/mjassociates/proj_mja_2_6s.webp);
+        }
+
+        .row-grid-4 {
+            display: grid;
+            grid-template-columns: repeat(auto-fit, minmax(300px, 1fr));
+            grid-column-gap: 20px;
+            grid-row-gap: 20px;
+        }
+        
+        more-show {
+            display: none;
+        }
+
+
+        .our-development-stratergy-inner .row-grid-4 .card .card-title {
+            /*box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;*/
+            padding: 4px 6px;
+            border-left: 4px solid var(--bs-primary);
+        }
+
+        .our-development-stratergy-inner .row-grid-4 .card {
+            box-shadow: none!important;
+            transition: box-shadow 0.4s, height 0.9s;
+        }
+
+        .our-development-stratergy-inner .row-grid-4 .card:hover {
+            box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+        }
+
+        .more-show-btn {
+            font-size: 12px;
+            padding: 4px 6px;
+        }
+        
+        .img-arrow-direction {
+            position: absolute; 
+            right: -16px; 
+            top: 45%; 
+            z-index: 2;
+            opacity: 0.7;
+            display: none; /* Not Required Too Much Over*/
+        }
+
+        /*
+        .img-arrow-direction img {
+
+        }
+        */
+        .benefits-card-img {
+            display: flex;
+            align-items: center;
+            justify-content: center;
+            width: 100%;
+            height: 100%;
+            padding: 20px;
+        }
+
+        .benefits-card-img img {
+            height: 100%;
+            width: 100%;
+        }        
+
+        @media (max-width: 768px) {
+            .intro-content {
+                height: auto!important;;
+            }
+
+            .img-fills > img {
+                height: auto!important;
+                object-fit: contain!important;
+            }
+
+            .our-projects img {
+                width: 320px;
+                height: 320px;
+            }
+
+            .img-arrow-direction {
+                top: auto;
+                right: auto;
+                bottom: -16px;
+                left: 45%;
+                transform: rotate( 90deg );
+                display: none; /* Not Required Too Much Over*/
+            }
+
+            .benefits-card-img {
+                justify-content: flex-start;
+            }
+
+            .benefits-card-img img {
+                height: 125px;
+                width: 125px;
+            }
+        }
+
+
+        .dev-stack-details .dev-section h4 {
+            border-left: 4px solid var(--bs-primary);
+            padding-left: 10px;
+            margin-top: 2rem;
+            margin-bottom: 1rem;
+        }
+
+
+    </style>
+
+</head>
+<body>
+
+    <header>
+
+        <nav class="navbar navbar-expand-lg navbar-dark bg-primary shadow fixed-top" style="min-height: 75px;">
+            <div class="container">
+
+                <a class="navbar-brand" href="#">
+                    <div class="c-logo d-flex" style="gap: 0.4rem; padding: 0.4rem; justify-content: center; align-items: center;">
+                        <span> <span class="name-caps-1">L</span>earn </span>
+                        <h4 class="" style="margin-bottom: -6px!important;"> & </h4>
+                        <span> <span class="name-caps-1">D</span>evelop </span>
+                        
+                    </div>                    
+                </a>
+
+                <button class="navbar-toggler" type="button" data-bs-toggle="collapse" data-bs-target="#n-dropdown" aria-controls="n-dropdown" aria-expanded="false" aria-label="Toggle navigation">
+                    <span class="navbar-toggler-icon"></span>
+                </button>
+
+                <div class="collapse navbar-collapse" id="n-dropdown">
+                    
+                    <ul class="navbar-nav ms-auto">
+                        <li class="nav-item">
+                            <a class="nav-link active" aria-current="page" href="#">Home</a>
+                        </li>
+                        <li class="nav-item">
+                            <a class="nav-link" href="#projects-spa">Projects</a>
+                        </li>
+                        <li class="nav-item dropdown">
+                            <a class="nav-link dropdown-toggle" href="#" id="navbarDropdownMenuLink" role="button" data-bs-toggle="dropdown" aria-expanded="false">
+                            Services
+                            </a>
+                            <ul class="dropdown-menu" aria-labelledby="navbarDropdownMenuLink">
+                            <li><a class="dropdown-item" href="#services-spa">Development Services</a></li>
+                            <li><a class="dropdown-item" href="#services-spa">Learning Services</a></li>
+                            <li><a class="dropdown-item" href="#services-spa">Software Services</a></li>
+                            <li><a class="dropdown-item" href="#services-spa">Something else here</a></li>
+                            </ul>
+                        </li>
+                    </ul>
+
+                </div>
+
+            </div>
+        </nav>
+
+
+        <div class="whatsapp-float-btn">
+            <a class="whatsapp-float-btn-icon text-white bg-dark shadow" style="display: flex; justify-content: center; align-items: center;" href="https://web.whatsapp.com/send?phone=917208522123&amp;text=Hello" target="_blank">
+                <img src="imgs/svg/whatsapp_buey.svg" width="70px" height="70px" alt="">
+            </a>
+            <a href="https://web.whatsapp.com/send?phone=917208522123&amp;text=Hello" target="_blank" class="whatsapp-float-btn-text align-self-center p-2 shadow" style="background-color: azure; border-radius: 8px;margin-left: 4px; text-decoration: none;">
+                Contact Me? <strong>Chat directly..</strong>
+            </a>
+        </div>
+
+
+    </header>
+
+    <main>
+
+        <!-- Intro Content -->
+        <div class="intro-content" style="padding: 40px 0px; /*background: var(--bs-gray-dark);*/ ">
+            <div class="container">
+                <div class="intro-content-inner">
+
+                    <div class="row" style="justify-content: center; align-items: center; row-gap: 1rem;">
+                        <div class="col-md-7">
+
+                            <div class="card-body p-0">
+                                <h2 class="card-title text-dark">Understand How to Develop</h2>
+                                <h4 class="card-subtitle mb-4 text-muted">Let us help you with our Learning & Experiences, We love to help others to built their Online Web Paradigm</h4>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#show-left-todo" >Let's Go</a>
+                                <a href="#" class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#show-left-todo" >Explore</a>
+                            </div>
+
+                        </div>
+                        <div class="col-md-5">
+                            <div class="img-fills" style="position: relative;">
+                                <img class="_img-no-bg" src="imgs/templates/Learn_and_Develop.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="">
+                                <img class="_img-bg" src="imgs/templates/Learn_and_Develop_1.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px; position: absolute; opacity: 0; left: 0;" alt="">
+                                <!--<img src="imgs/templates/Learn_By_Doing.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="Learn By Doing">
+                                <img src="imgs/templates/Then_Develop.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px; position: absolute; opacity: 0.6; left: 0;" alt="Learn By Doing"> -->
+                            </div>                            
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Intro Content -->
+
+        <!-- Our Motive -->
+        <div class="our-motive" style="padding: 40px 0; background: #f9f9f9;">
+            <div class="container">
+
+                <div class="our-motive-inner">
+
+                    <div class="row" style="justify-content: center; align-items: center; row-gap: 1rem;">
+                        
+                        <div class="col-md-5">
+
+                            <div class="img-fills" style="position: relative;">
+                                <img class="_img-no-bg" src="imgs/templates/Motive1-SaveMoney.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="">
+                                <img class="_img-bg" src="imgs/templates/Motive1-SaveMoney_1.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px; position: absolute; opacity: 0; left: 0;" alt="">
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-7">
+
+                            <div class="card-body p-0">
+                                <h2 class="card-title text-dark">Our Motive</h2>
+                                <h4 class="card-subtitle mb-4 text-muted">
+                                    One of our important motive is to give our services at as low cost as possible by reusing free resources.
+                                </h4>
+                                <a href="#" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#show-left-todo" >Read More</a>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+            </div>
+        </div>
+        <!-- Our Motive Ends -->
+
+
+        <!-- Services Offered Ends -->
+        <div id="services-spa" class="services-details" style="padding: 40px 0;">
+            <div class="container">
+                
+                <div class="services-details-inner">
+
+                    <div class="services-details-intro mb-4">
+                        <div class="">
+                            
+                            <h3 class="mb-4"> <span style="border-bottom: 4px solid var(--bs-primary); padding: 5px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; border-radius: 4px; "> Our Services</span></h3>
+
+                            <h5 class="card-subtitle mb-2 text-muted">
+                                We try to deliver all range of services, starting from development, teaching and also hardware & software installation.
+                                We believe that one cannot be taken away from Websites, Apps, Computers anf IT.
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="row row-cols-1 row-cols-md-3 g-4">
+                        
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="imgs/svg/development-services.svg" class="card-img-top" alt="Security" width=100 height=100 style="object-fit: contain; margin: 8px; ">
+                                <div class="card-float">
+                                    <a href="#" class="btn btn-primary">Explore</a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Development</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Web, Desktop, Mobile
+                                    </h6>
+                                    <p class="card-text">
+                                        We love building & Exploring, Web Development is the most used platform to marketize your product. But we also cover Mobile & Desktop App Development.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="imgs/svg/teaching-learning.svg" class="card-img-top" alt="Security" width=100 height=100 style="object-fit: contain; margin: 8px; ">
+                                <div class="card-float">
+                                    <a href="#" class="btn btn-primary">Explore</a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Teaching</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Learning & Building
+                                    </h6>
+                                    <p class="card-text">
+                                        We not only develop, but we love to teach others, teach them how things work, help them first learn the concept & then how to actually develop it.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+                        <div class="col">
+                            <div class="card h-100">
+                                <img src="imgs/svg/installation.svg" class="card-img-top" alt="Security" width=100 height=100 style="object-fit: contain; margin: 8px; ">
+                                <div class="card-float">
+                                    <a href="#" class="btn btn-primary">Explore</a>
+                                </div>
+                                <div class="card-body">
+                                    <h4 class="card-title">Software Services</h4>
+                                    <h6 class="card-subtitle mb-2 text-muted">Software Installation
+                                    </h6>
+                                    <p class="card-text">
+                                        We provide OS & Software installation to people who have just started or are not comfortable in doing it, we let them use our expertise in this matter.
+                                    </p>
+                                </div>
+                            </div>
+                        </div>
+
+
+                    </div>
+
+                    <!-- Need To Add Link & Work On -->
+                    <div class="mt-4">
+                        <button class="btn btn-outline-primary" data-bs-toggle="modal" data-bs-target="#show-left-todo" >More Details</button>
+                    </div>
+                    <!-- Need To Add Link & Work On ENDS -->
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Services Offered Ends -->
+
+
+        <!-- Dev Stack / Technology -->
+        <div class="dev-stack-details" style="padding: 40px 0; background: #f9f9f9;">
+            <div class="container">
+                <div class="dev-stack-details-inner">
+
+                    <div class="dev-stack-details-intro mb-4">
+                        <div class="">
+                            
+                            <h3 class="mb-4"> <span style="border-bottom: 4px solid var(--bs-primary); padding: 5px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; border-radius: 4px; "> Our Dev Stack </span></h3>
+
+                            <h5 class="card-subtitle mb-2 text-muted">
+                                Our Development area is very Flexible, Beginning from Static Websites to Dynamic Applications and not to forget Linux System Management we also do that.
+                                Below are our Dev Stack.
+                            </h5>
+                        </div>
+                    </div>
+
+                    <div class="column">
+
+                        <div class="dev-section">
+                            <h4>Frontend Beginner</h4>
+                        </div>
+
+                        <div class="dev-stack backend-dev-stack d-flex flex-wrap" style="gap: 1rem">
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/html-5.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">HTML</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/css.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">CSS</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/javascript.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">Javascript</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/jquery-logo1.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">JQuery</h5>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="dev-section">
+                            <h4>Frontend Advance</h4>
+                        </div>
+
+                        <div class="dev-stack backend-dev-stack d-flex flex-wrap" style="gap: 1rem">
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/reactjs.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">ReactJS</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/svelte.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">Svelte</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/Vue.js_Logo.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">VueJS</h5>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="dev-section">
+                            <h4>BackEnd Dev</h4>
+                        </div>
+
+                        <div class="dev-stack backend-dev-stack d-flex flex-wrap" style="gap: 1rem">
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/python.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">Python</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/nodejs.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">NodeJS</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/java.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">Java</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/go-lang.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">GoLang</h5>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="dev-section">
+                            <h4>Database Dev</h4>
+                        </div>
+
+                        <div class="dev-stack backend-dev-stack d-flex flex-wrap" style="gap: 1rem">
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/mysql.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">MySQL</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/PostgreSQL_logo.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">PostgreSQL</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/mongodb.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">MongoDB</h5>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="dev-section">
+                            <h4>System Setup</h4>
+                        </div>
+
+                        <div class="dev-stack backend-dev-stack d-flex flex-wrap" style="gap: 1rem">
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/linux.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">Linux</h5>
+                                </div>
+                            </div>
+
+                            <div class="card" style="height: 160px; width: 160px;">
+                                <img src="imgs/svg/lang/gnu-bash.svg" class="card-img-top mt-2" alt="Security" width=100 height=100 style="object-fit: contain;">
+                                <div class="card-body text-center" style="padding: 0.6rem;">
+                                    <h5 class="card-title">Bash</h5>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="dev-stack frontend-dev-stack">
+                            
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- Dev Stack / Technology Ends -->
+
+
+        <!-- Quick Learning: Resources Used for this website to create -->
+
+        <div id="projects-spa" class="our-projects">
+            <div class="container">
+
+                <div class="our-projects-inner">
+
+                    <div class="our-projects-intro mb-4">
+                        <div class="">
+                            
+                            <h3 class="mb-4"> 
+                                <span style="border-bottom: 4px solid var(--bs-primary); padding: 5px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; border-radius: 4px; "> Our Projects </span>
+                            </h3>
+
+                            <h5 class="card-subtitle mb-2 text-muted">
+                                Below are our Projects that we have developed and customers have loved it due to it's simplicity.
+                            </h5>
+                        </div>
+                    </div>
+
+
+                    <div class="row" style="row-gap: 1rem;">
+
+                        <div class="col-md-6">
+
+                            <div class="card" style="overflow: hidden;border-right: 4px solid var(--bs-primary);">
+
+                                <img class="web-dev-services-proj-img-show" src="imgs/projects/web-dev-services/proj-intro-1.png" class="card-img-top mt-2" alt="Security" width="100%" height=400 style="object-fit: contain;">
+
+                                <div class="card-float d-flex flex-column" style="gap: 0.4rem">  
+                                    <a href="#" target="_blank" class="btn btn-dark">Website Link</a>
+                                    <a href="#" target="_blank" class="btn btn-danger">YouTube Intro</a>
+                                    <a href="https://github.com/Asharry97/web-dev-services" target="_blank" class="btn btn-success">Github Link</a>
+                                </div>
+
+                                <div class="card-header" style="padding: 0.6rem;">
+                                    <h5 class="card-title">Web Dev Services.</h5>
+                                    <h5 class="card-subtitle text-muted">
+                                        Development Services
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="d-flex flex-wrap" style="gap: 0.6rem; justify-content:flex-start; align-items: center;">
+                                            <h4>
+                                               <span class="badge text-primary" style="border: 1px solid var(--bs-primary);">  Tech Stack Used: </span>
+                                            </h4>
+                                            <h5>
+                                                <span class="badge bg-secondary">HTML</span>
+                                                <span class="badge bg-secondary">CSS</span>
+                                                <span class="badge bg-secondary">JS</span>
+                                                <span class="badge bg-secondary">Bootstrap v5</span>     
+                                            </h5>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">We wanted a website to show our Projects Work & Efforts and needed a Platform where people can connect to us for any IT Related help.</li>
+                                    <li class="list-group-item">We tried to show our projects, skills & services as much as we can via this website</li>
+                                    <li class="list-group-item">No Cost was incurred while developing this, not even hosting or SSL Certificate</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                        <div class="col-md-6">
+                            
+                            <!--
+                                YT Link: https://www.youtube.com/watch?v=rmR00DZ4EKk
+                                Github Link: https://github.com/Asharry97/MJ_ASSOCIATE
+                                Website Link: https://www.mjassociate.co.in/
+                            -->
+
+                            <div class="card" style="overflow: hidden;border-right: 4px solid var(--bs-primary);">
+                                <img class="mj-assocaite-proj-img-show" src="imgs/projects/mjassociates/2.png" class="card-img-top mt-2" alt="Security" width="100%" height=400 style="object-fit: contain;">
+                                <div class="card-float d-flex flex-column" style="gap: 0.4rem">  
+                                    <a href="https://www.mjassociate.co.in/" target="_blank" class="btn btn-dark">Website Link</a>
+                                    <a href="https://www.youtube.com/watch?v=rmR00DZ4EKk" target="_blank" class="btn btn-danger">YouTube Intro</a>
+                                    <a href="https://github.com/Asharry97/MJ_ASSOCIATE" target="_blank" class="btn btn-success">Github Link</a>
+                                </div>
+                                <div class="card-header" style="padding: 0.6rem;">
+                                    <h5 class="card-title">MJ & Associates</h5>
+                                    <h5 class="card-subtitle text-muted">
+                                        Law Firm                                   
+                                    </h5>
+                                </div>
+                                <ul class="list-group list-group-flush">
+                                    <li class="list-group-item">
+                                        <div class="d-flex flex-wrap" style="gap: 0.6rem; justify-content:flex-start; align-items: center;">
+                                            <h4>
+                                               <span class="badge text-primary" style="border: 1px solid var(--bs-primary);">  Tech Stack Used: </span>
+                                            </h4>
+                                            <h5>
+                                                <span class="badge bg-secondary">HTML</span>
+                                                <span class="badge bg-secondary">CSS</span>
+                                                <span class="badge bg-secondary">JS</span>
+                                                <span class="badge bg-secondary">Bootstrap v5</span>     
+                                            </h5>
+                                        </div>
+                                    </li>
+                                    <li class="list-group-item">We sat with the <strong> <a href="https://www.mjassociate.co.in/" target="_blank">MJ & Associates</a> </strong> Team to understand their requirement and develop website as easy and simple as it can be.</li>
+                                    <li class="list-group-item">We reviewed the website with the team and did all customization and changes as and when they require it to be done</li>
+                                    <li class="list-group-item">We reduced the cost of the project to very minimum by using resources freely available, Hosting on Github Pages</li>
+                                </ul>
+                                <div class="card-footer">
+                                    <a href="#" class="btn btn-primary">Read More</a>
+                                </div>
+                            </div>
+
+                        </div>
+
+                    </div>
+
+                    <!-- Need To Add Link & Work On -->
+                    <div class="mt-4">
+                        <button class="btn btn-outline-primary"  data-bs-toggle="modal" data-bs-target="#show-left-todo" >More Projects</button>
+                    </div>
+                    <!-- Need To Add Link & Work On ENDS -->
+
+                </div>
+
+            </div>
+        </div>
+
+
+        <!-- Quick Learning: Resources Used for this website to create Ends -->
+
+
+        <!-- Our Benefits -->
+
+        <div class="our-benefits">
+            <div class="container">
+                
+                <div class="our-benefits-inner">
+
+                    <div class="our-benefits-intro mb-4">
+                        <div class="">
+                            
+                            <h3 class="mb-4"> 
+                                <span style="border-bottom: 4px solid var(--bs-primary); padding: 5px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; border-radius: 4px; "> Our Benefits </span>
+                            </h3>
+
+                            <h5 class="card-subtitle mb-2 text-muted">
+                                Know us, Understand us and believe in us, before that talk with us for more detailed understanding of all the benefits that we provide.
+                            </h5>
+                        </div>
+                    </div>
+
+
+                    <div class="row">
+                        <div class="col-md-6">
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <div class="benefits-card-img"> 
+                                            <img src="imgs/svg/lowest_price.svg" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Low(est) Cost </h5>
+                                            <p class="card-text">
+                                                We try to use as much free resources & services available to make the costing as minimal as possible.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Since 2020</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <div class="benefits-card-img"> 
+                                            <img src="imgs/svg/we_customize.svg" alt="...">
+                                        </div>
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Customization</h5>
+                                            <p class="card-text">
+                                                We Know that Customization is what is very much required and we love to hear from customer, understand his custom requirement and then actually show that in action.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Since 2020</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <div class="benefits-card-img"> 
+                                            <img src="imgs/svg/we_maintain.svg" alt="...">
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Free Maintainence & Change Agnostic</h5>
+                                            <p class="card-text">
+                                                We Maintain & Keep on Adding Changes even after the Final Release has been deployed, we also keep on finding any problem which needs to be patched.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Since 2020</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                        <div class="col-md-6">
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <div class="benefits-card-img"> 
+                                            <img src="imgs/svg/learning_with_us.svg" alt="...">
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h5 class="card-title">Learning</h5>
+                                            <p class="card-text">
+                                                Learn with Us, We love teaching people what we do and how we do. we also train, give us a chance talk with us we will be happy to hear from you.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Since 2020</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+                    </div>
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Our Benefits Ends -->
+
+        
+        <!-- Our Costing -->
+
+        <div class="our-costing">
+            <div class="container">
+                
+                <div class="our-costing-inner">
+
+                    <div class="our-costing-intro mb-4">
+                        <div class="">
+                            
+                            <h3 class="mb-4"> 
+                                <span style="border-bottom: 4px solid var(--bs-primary); padding: 5px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; border-radius: 4px; "> Our Costing </span>
+                            </h3>
+
+                            <h5 class="card-subtitle mb-2 text-muted">
+                                We built Solutions at Lowest Cost Possible.
+                                You can directly reach to use on <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#show-left-todo" >WhatsApp </button> <br>
+                                For Reference & Basic Understaning we have created a small Pricing table, it will give you few more insites.
+                            </h5>
+                            <a href="" class="btn btn-primary">Pricing Table</a> 
+                        </div>
+                    </div>              
+
+                </div>
+
+            </div>
+        </div>
+
+        <!-- Our Costing Ends -->
+
+        <!-- How We Develop Our Development Stratergy -->
+
+        <div class="our-development-stratergy">
+            <div class="container">
+                <div class="our-development-stratergy-inner">
+
+                    <script>
+
+                        function show_more_card_content(clicker) {
+
+                            var moreTextElement = clicker.previousElementSibling;
+                            console.log("Status: ",  moreTextElement, "  => ", moreTextElement.style.display    )
+                            if (moreTextElement.style.display === "block" || moreTextElement.style.display === "inline") {
+                                clicker.innerHTML = "Read More";
+                                moreTextElement.style.display = "none";
+                            } else {
+                                clicker.innerHTML = "Read Less"; 
+                                moreTextElement.style.display = "inline";
+                            }
+                        }
+                    </script>
+
+                    <div class="our-development-stratergy-intro mb-4">
+                        <div class="">
+                            
+                            <h3 class="mb-4"> 
+                                <span style="border-bottom: 4px solid var(--bs-primary); padding: 5px; box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important; border-radius: 4px; "> Our Development Stratergy </span>
+                            </h3>
+
+                            <h5 class="card-subtitle mb-2 text-muted">
+                                How our Development goes is listed below in the following sequence and flow.
+                            </h5>
+                        </div>
+                    </div>              
+
+                    <div class="row-grid-4">
+                        
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>1</h1>
+                                <h5 class="card-title">Understanding Customer</h5>
+                                <p class="card-text">We first Try to understand what customer actually wants, from which domain is he is coming and what would be his perspective.</p>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>2</h1>
+                                <h5 class="card-title">Research Work & Analysis</h5>
+                                <p class="card-text">As per the clients info and details what is the area that he is covering, what will be the end goal, what are the current solutions or projects 
+                                    <more-show> 
+                                        with respect to that and how much time,efforts and money it will take to develop a similar project.
+                                    </more-show>
+                                    <button class="btn btn-primary more-show-btn" onclick="show_more_card_content(this)">Read more</button>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>3</h1>
+                                <h5 class="card-title">Make Customer Aware & Comfortable</h5>
+                                <p class="card-text">After the Proper Analysis , we make the customer aware about the results as to how we are going to proceed, what all pre-requistes
+                                <more-show>
+                                    will be required and what coud be the time, efforts & cost incurred for the same.
+                                </more-show>
+                                <button class="btn btn-primary more-show-btn" onclick="show_more_card_content(this)">Read more</button>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>4</h1>
+                                <h5 class="card-title">Module Based Development</h5>
+                                <p class="card-text">We then break things in small modules/parts so taht we can show and quickly review our product to customer. this helps the customer to understand how things are going
+                                    <more-show> 
+                                        and can also provide some feedback or start using the project, while we are developing the later part.This approach is totally customer preferences specific.
+                                    </more-show>
+                                    <button class="btn btn-primary more-show-btn" onclick="show_more_card_content(this)">Read more</button>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>5</h1>
+                                <h5 class="card-title">Teaching(OPTIONAL)</h5>
+                                <p class="card-text">While Developing and building we also help them undersand how it is getting developed. this used where we develop projects for it firms or for colleges.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>6</h1>
+                                <h5 class="card-title">Testing</h5>
+                                <p class="card-text">This is very crucial regardless the project being a very simple static site to showcase company info online. we need to test 
+                                    
+                                <more-show>
+                                    that it works properly and can be accesssed and used in any device type or size.
+                                </more-show>
+                                <button class="btn btn-primary more-show-btn" onclick="show_more_card_content(this)">Read more</button>
+                                </p>
+                            </div>
+                        </div>
+                        
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>7</h1>
+                                <h5 class="card-title">Customer Approval</h5>
+                                <p class="card-text">This is the Key Element, we want the customer should be happy from what he takes from us, the End Goal is to make the Project usefull for him.</p>
+                            </div>
+                        </div>
+
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>8</h1>
+                                <h5 class="card-title">Final Touch (Version 0.0.1)</h5>
+                                <p class="card-text">We will now club our project code properly so that we better optimize it before deployment, look at things we kept for fallback etc.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            <div class="img-arrow-direction">
+                                <img src="imgs/svg/right-arrow.svg" alt="" width="32" height="32">
+                            </div>
+                            <div class="card-body">
+                                <h1>9</h1>
+                                <h5 class="card-title">Deployment & Tracking</h5>
+                                <p class="card-text">We always presume that the first developement is the Initial Release and requires us to keep on looking it from differnt angle and perspective hwile using it.</p>
+                            </div>
+                        </div>
+
+
+                        <div class="card" style="width: nonotnow; border-top: 4px solid var(--bs-primary)">
+                            
+                            <div class="card-body">
+                                <h1>10</h1>
+                                <h5 class="card-title">Maintenance</h5>
+                                <p class="card-text">Customer who will use is project is bound to come up with new requirements and we are happy to help him cover that part. we enjoy new requirement 
+                                
+                                <more-show>
+                                    as this helps us to learn, maintain a good bond with customer and also make it possible in action that is where the JOY is hidden.
+                                </more-show>
+                                <button class="btn btn-primary more-show-btn" onclick="show_more_card_content(this)">Read more</button>
+                                </p>
+                            </div>
+                        </div>
+
+                    </div>
+
+                </div>
+            </div>
+        </div>
+
+        <!-- How We Develop Ends -->
+
+    </main>
+
+    <footer>
+
+
+        <footer class="pt-4 my-md-5 pt-md-5 border-top bg-light" style="margin-bottom: 0!important;">
+            <div class="container">
+                
+                <div class="row">
+                    <div class="col-12 col-md">
+                        <img class="mb-2" src="imgs/svg/learn_dev_happy_3.svg" alt="" width="125" height="125">
+                        <small class="d-block mb-3">Mummy I learnt Something Today</small>
+                        <small class="d-block mb-3 text-muted">© 2020–2030</small>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 style="border-left: 4px solid var(--bs-primary); padding-left: 6px;">Navigate</h5>
+                        <ul class="list-unstyled text-small">
+                        <li><a class="link-primary" href="#">Home</a></li>
+                        <li><a class="link-primary" href="#">Projects</a></li>
+                        <li><a class="link-primary" href="#">Pricing Table</a></li>
+                        <li><a class="link-primary" href="#">Learning</a></li>
+                        <li><a class="link-primary" href="#">Other Services</a></li>
+                        <li><a class="link-primary" href="#">Quick Look</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 style="border-left: 4px solid var(--bs-primary); padding-left: 6px;">Resources</h5>
+                        <ul class="list-unstyled text-small">
+                        <li> <a class="link-primary" href="https://dev.to/asharry97/" target="_blank">Blog Posts</a></li>
+                        <li><a class="link-primary" href="https://codepen.io/Asharry97/" target="_blank">CodePen Snippets</a></li>
+                        <li><a class="link-primary" href="https://github.com/Asharry97" target="_blank">GitHub Repo</a></li>
+                        <li><a class="link-primary" href="https://cssbattle.dev/player/DNkWsuYVZ5OudcepfYXrkFvFlpe2" target="_blank">CSSBattle Plays</a></li>
+                        </ul>
+                    </div>
+                    <div class="col-6 col-md">
+                        <h5 style="border-left: 4px solid var(--bs-primary); padding-left: 6px;">About</h5>
+                        <ul class="list-unstyled text-small">
+                        <li><a class="link-primary" href="#">Team</a></li>
+                        <li><a class="link-primary" href="#">Locations</a></li>
+                        <li><a class="link-primary" href="#">Privacy</a></li>
+                        <li><a class="link-primary" href="#">Terms</a></li>
+                        </ul>
+                    </div>
+                </div>
+                
+                <footer class="footer mt-auto py-3 bg-light">
+                    <div class="container">
+                        <center>
+                            <span class="text-muted">All We do is Help others <strong>Learn & Develop</strong> .</span>
+                        </center>
+                    </div>
+                </footer>
+            </div>
+        </footer>
+
+        <modal-setup>
+
+
+
+            <div class="modal fade" id="show-left-todo" tabindex="-1" aria-labelledby="exampleModalPopoversLabel" style="display: none;" aria-hidden="true">
+                <div class="modal-dialog">
+                    <div class="modal-content">
+                        <div class="modal-header">
+                            <h5 class="modal-title" id="exampleModalPopoversLabel">🔥</h5>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                        </div>
+                        <div class="modal-body">
+                            <p>
+                                😅 Still left to Do some development, we are working on it.
+                                Tell Us how u found the website. it is Minimal and just to showcase our projects.
+                            </p>
+                            <h5>Stay Tuned We will be updating alot of things here.</h5>
+                            Chat with us <a href="https://web.whatsapp.com/send?phone=917208522123&amp;text=Hello" class="btn btn-success" target="_blank">@WhatsApp</a> 
+                        </div>
+                    </div>
+                </div>
+            </div>
+
+            <!--
+            <button type="button" class="btn btn-primary" data-bs-toggle="modal" data-bs-target="#exampleModalPopovers">
+                Test Modal Working
+            </button>
+            -->
+
+        </modal-setup>
+
+    </footer>
+</body>
+</html>

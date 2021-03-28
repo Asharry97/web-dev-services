@@ -1,0 +1,75 @@
+body {
+    /*font-family: 'JetBrains Mono', monospace;*/
+    font-family: 'Poppins', sans-serif;
+}
+
+main {
+    margin-top: 75px;
+}
+
+.card {
+    box-shadow: 0 .5rem 1rem rgba(0,0,0,.15)!important;
+    border: none;
+}
+
+
+/***
+    padding: 40px 0px;
+    height: 480px;
+    background: #f9f9f9;
+    background-image: url(imgs/templates/Learn_and_Develop.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-position: inherit;
+***/
+
+
+/*** Whats App ***/
+
+
+.whatsapp-float-btn {
+    position: fixed; /* Very Crucial */
+    width: 320px;
+    height: 60px;
+    left: 18px; 
+    bottom: 40px;
+    z-index: 3;
+    display: flex; /* Make It FlexBox */
+}
+
+.whatsapp-float-btn-icon {
+    height: 64px;
+    width: 64px;
+    bottom: 36px;
+    border-radius: 50%;
+}
+
+.whatsapp-float-btn-text {
+    padding-left: 6px;
+    font-size: 16px;
+    color: #000000;
+}
+
+.whatsapp-float-btn-text:hover {
+    background-color: #fff!important;
+    color: #000!important;
+}
+
+
+
+.whatsapp-float-btn, .whatsapp-float-btn * {
+    transition: all 0.4s ease;
+}
+
+@keyframes bounce {
+	0%, 20%, 50%, 80%, 100% {transform: translateY(0);}
+	40% {transform: translateY(-30px);}
+	60% {transform: translateY(-15px);}
+}
+
+.whatsapp-float-btn {
+    animation: bounce 1.6s infinite;
+}
+
+
+/********* ******/
