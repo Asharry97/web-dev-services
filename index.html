@@ -205,6 +205,18 @@
             margin-bottom: 1rem;
         }
 
+        .modal-content {
+            border: none;
+            border-radius: unset;
+        }
+
+        .modal-header, .modal-body {
+            padding: 0.8rem;
+        }
+
+        .our-benefits .card:hover {
+            border: 2px solid #6ea8fe;
+        }
 
     </style>
 
@@ -772,8 +784,8 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Low(est) Cost </h5>
-                                            <p class="card-text">
+                                            <h4 class="card-title">Lowest Cost </h4>
+                                            <p class="card-text text-muted">
                                                 We try to use as much free resources & services available to make the costing as minimal as possible.
                                             </p>
                                             <p class="card-text"><small class="text-muted">Since 2020</small></p>
@@ -794,8 +806,8 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Customization</h5>
-                                            <p class="card-text">
+                                            <h4 class="card-title">Customization</h4>
+                                            <p class="card-text text-muted">
                                                 We Know that Customization is what is very much required and we love to hear from customer, understand his custom requirement and then actually show that in action.
                                             </p>
                                             <p class="card-text"><small class="text-muted">Since 2020</small></p>
@@ -817,8 +829,8 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Free Maintainence & Change Agnostic</h5>
-                                            <p class="card-text">
+                                            <h4 class="card-title">Free Maintainence</h4>
+                                            <p class="card-text text-muted">
                                                 We Maintain & Keep on Adding Changes even after the Final Release has been deployed, we also keep on finding any problem which needs to be patched.
                                             </p>
                                             <p class="card-text"><small class="text-muted">Since 2020</small></p>
@@ -839,8 +851,8 @@
                                     </div>
                                     <div class="col-md-8">
                                         <div class="card-body">
-                                            <h5 class="card-title">Learning</h5>
-                                            <p class="card-text">
+                                            <h4 class="card-title">Learning</h4>
+                                            <p class="card-text text-muted">
                                                 Learn with Us, We love teaching people what we do and how we do. we also train, give us a chance talk with us we will be happy to hear from you.
                                             </p>
                                             <p class="card-text"><small class="text-muted">Since 2020</small></p>
@@ -850,6 +862,58 @@
                             </div>
 
                         </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <div class="benefits-card-img"> 
+                                            <img src="imgs/svg/code_change.svg" alt="...">
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h4 class="card-title">Change Agnostic</h4>
+                                            <p class="card-text text-muted">
+                                                Let us know, where you require changes and when, we will do it. If you want to change the whole design, don't worry we are there we will do it.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Since 2020</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+                        <div class="col-md-6">
+
+                            <div class="card mb-3">
+                                <div class="row g-0">
+                                    <div class="col-md-4">
+                                        <div class="benefits-card-img"> 
+                                            <img src="imgs/svg/system_setup.svg" alt="...">
+                                        </div>                                        
+                                    </div>
+                                    <div class="col-md-8">
+                                        <div class="card-body">
+                                            <h4 class="card-title">System Setup</h4>
+                                            <p class="card-text text-muted">
+                                                We also help people in System Setup, ranging from software,os installation to hardware installation.
+                                            </p>
+                                            <p class="card-text"><small class="text-muted">Since 2020</small></p>
+                                        </div>
+                                    </div>
+                                </div>
+                            </div>
+
+                        </div>
+
+
+
+
                     </div>
 
                 </div>
@@ -879,8 +943,86 @@
                                 You can directly reach to use on <button class="btn btn-success"  data-bs-toggle="modal" data-bs-target="#show-left-todo" >WhatsApp </button> <br>
                                 For Reference & Basic Understaning we have created a small Pricing table, it will give you few more insites.
                             </h5>
-                            <a href="" class="btn btn-primary">Pricing Table</a> 
                         </div>
+
+                        <div class="row row-cols-1 row-cols-md-3 mb-3 text-center" style="margin-top: 20px;">
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm border-primary" style="border: 2px solid;">
+                                    <div class="card-header py-3 ">
+                                        <h4 class="my-0 fw-normal mb-2">Web Starter</h4>
+                                        <h5 class="">Static Website Dev</h5>
+                                    </div>
+
+                                    <div class="popular-star" style="position: absolute; left: -20px; top: 10px; transition: right 0.6s ease-in-out; background-color: var(--bs-primary); padding: 6px; border-radius: 4px; color: white;">
+                                        Most Popular
+                                    </div>
+
+                                    <h1 class="mt-4 card-title pricing-card-title text-white" style="background-color: var(--bs-info); padding: 4px;">₹5000/-</h1>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title pricing-card-title">+2 Year Maintenance FREE</h4>
+                                        <h5 class="card-title pricing-card-title">Maintainence: +₹1000<small class="text-muted fw-light">/year</small></h2>
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>*Unlimited Pages(Max 50)</li>
+                                            <li>Free Hosting/Deployment</li>
+                                            <li>Free SSL</li>
+                                            <li>Free Logo Development</li>
+                                            <li>Free Resources</li>
+                                            <li>Fast Development(Max 7 Days)</li>
+                                        </ul>
+                                        <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#show-left-todo">Contact Us</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                        <h4 class="my-0 fw-normal mb-2">Web Apps</h4>
+                                        <h5 class="text-muted">Dynamic Website Dev</h5>
+                                    </div>
+                                    <h1 class="mt-4 card-title pricing-card-title text-white" style="background-color: var(--bs-info); padding: 4px;">Starting @ ₹7500/-</h1>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title pricing-card-title">+2 Year Maintenance FREE</h4>
+                                        <h5 class="card-title pricing-card-title">Maintainence: +₹2000<small class="text-muted fw-light">/year</small></h2>
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>*Unlimited Pages(Max 50)</li>
+                                            <li>Paid Hosting/Deployment</li>
+                                            <li>Free SSL</li>
+                                            <li>Free Logo Development</li>
+                                            <li>Free Resources</li>
+                                            <li>Fast Development(Max 7 Days)</li>
+                                        </ul>
+                                        <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#show-left-todo">Contact Us</button>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="col">
+                                <div class="card mb-4 rounded-3 shadow-sm">
+                                    <div class="card-header py-3">
+                                        <h4 class="my-0 fw-normal mb-2">Custom Apps</h4>
+                                        <h5 class="">Mobile & Desktop Dev</h5>
+                                    </div>
+                                    <h1 class="mt-4 card-title pricing-card-title text-white" style="background-color: var(--bs-info); padding: 4px;">Starting @ ₹8500/-</h1>
+                                    <div class="card-body">
+                                        
+                                        <h4 class="card-title pricing-card-title">+2 Year Maintenance FREE</h4>
+                                        <h5 class="card-title pricing-card-title">Maintainence: +₹3000<small class="text-muted fw-light">/year</small></h2>
+                                        <ul class="list-unstyled mt-3 mb-4">
+                                            <li>*Unlimited Pages(Max 50)</li>
+                                            <li>Paid Hosting/Deployment</li>
+                                            <li>Free SSL</li>
+                                            <li>Free Logo Development</li>
+                                            <li>Free Resources</li>
+                                            <li>Fast Development(Max 10 Days)</li>
+                                        </ul>
+                                        <button type="button" class="w-100 btn btn-lg btn-outline-primary" data-bs-toggle="modal" data-bs-target="#show-left-todo">Contact Us</button>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+
+
                     </div>              
 
                 </div>
@@ -1076,8 +1218,7 @@
 
     <footer>
 
-
-        <footer class="pt-4 my-md-5 pt-md-5 border-top bg-light" style="margin-bottom: 0!important;">
+        <footer class="pt-4 pt-md-5" style="margin: 40px!important;">
             <div class="container">
                 
                 <div class="row">
@@ -1117,13 +1258,14 @@
                     </div>
                 </div>
                 
-                <footer class="footer mt-auto py-3 bg-light">
-                    <div class="container">
-                        <center>
-                            <span class="text-muted">All We do is Help others <strong>Learn & Develop</strong> .</span>
-                        </center>
-                    </div>
-                </footer>
+            </div>
+        </footer>
+
+        <footer class="footer mt-auto py-3 bg-light">
+            <div class="container">
+                <center>
+                    <span class="text-muted">All We do is Help others <strong>Learn & Develop</strong> .</span>
+                </center>
             </div>
         </footer>
 
@@ -1136,7 +1278,7 @@
                     <div class="modal-content">
                         <div class="modal-header">
                             <h5 class="modal-title" id="exampleModalPopoversLabel">🔥</h5>
-                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close"></button>
+                            <button type="button" class="btn-close" data-bs-dismiss="modal" aria-label="Close" style="border-radius: 50%; background-color: #f1f1f1; border: 1px solid #6e6868;" ></button>
                         </div>
                         <div class="modal-body">
                             <p>
