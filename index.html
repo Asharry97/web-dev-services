@@ -161,6 +161,7 @@
         .benefits-card-img img {
             height: 100%;
             width: 100%;
+            transition: transform 0.3s;
         }        
 
         @media (max-width: 768px) {
@@ -194,6 +195,7 @@
             .benefits-card-img img {
                 height: 125px;
                 width: 125px;
+
             }
         }
 
@@ -214,8 +216,14 @@
             padding: 0.8rem;
         }
 
+        /*
         .our-benefits .card:hover {
             border: 2px solid var(--bs-primary);
+        }
+        */
+
+        .our-benefits .card:hover img {
+            transform: scale(1.10);
         }
 
     </style>
@@ -301,6 +309,9 @@
                         </div>
                         <div class="col-md-5">
                             <div class="img-fills" style="position: relative;">
+                                
+                                <img class="_img-no-bg w-100" src="imgs/svg/software-developer-1.svg" alt="Our Intro">
+                                <!--
                                 <img class="_img-no-bg" src="imgs/templates/Learn_and_Develop.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="">
                                 <img class="_img-bg" src="imgs/templates/Learn_and_Develop_1.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px; position: absolute; opacity: 0; left: 0;" alt="">
                                 <!--<img src="imgs/templates/Learn_By_Doing.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="Learn By Doing">
@@ -325,8 +336,13 @@
                         <div class="col-md-5">
 
                             <div class="img-fills" style="position: relative;">
+
+                                <img class="_img-no-bg w-100" src="imgs/svg/our_motive.svg" alt="Our Motive">
+
+                                <!--
                                 <img class="_img-no-bg" src="imgs/templates/Motive1-SaveMoney.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px;" alt="">
                                 <img class="_img-bg" src="imgs/templates/Motive1-SaveMoney_1.jpg" style="height: 400px; width: 100%; object-fit: cover; border-radius: 6px; position: absolute; opacity: 0; left: 0;" alt="">
+                                -->
                             </div>
 
                         </div>
@@ -957,11 +973,10 @@
                                         Most Popular
                                     </div>
 
-                                    <h1 class="mt-4 card-title pricing-card-title text-white bg-info shadow p-2" style="width: 104%; margin-left: -2%; border-radius: 4px;">₹5000/-</h1>
+                                    <h3 class="mt-4 card-title pricing-card-title text-white bg-info shadow p-2" style="width: 104%; margin-left: -2%; border-radius: 4px;">₹5000/-</h3>
                                     <div class="card-body">
                                         
-                                        <h4 class="card-title pricing-card-title">+2 Year Maintenance FREE</h4>
-                                        <h5 class="card-title pricing-card-title">Maintainence: +₹1000<small class="text-muted fw-light">/year</small></h2>
+                                        <h4 class="card-title pricing-card-title">+2 Year Maintenance FREE </h4>
                                         <ul class="list-unstyled mt-3 mb-4">
                                             <li>*Unlimited Pages(Max 50)</li>
                                             <li>Free Hosting/Deployment</li>
@@ -980,11 +995,10 @@
                                         <h4 class="my-0 mb-2" style="font-weight: 600;">Web Apps</h4>
                                         <h5 class="text-muted">Dynamic Website Dev</h5>
                                     </div>
-                                    <h1 class="mt-4 card-title pricing-card-title text-white bg-info shadow p-2" style="width: 104%; margin-left: -2%; border-radius: 4px;">Starting @ ₹7500/-</h1>
+                                    <h3 class="mt-4 card-title pricing-card-title text-white bg-info shadow p-2" style="width: 104%; margin-left: -2%; border-radius: 4px;">Starting @ ₹7500/-</h3>
                                     <div class="card-body">
                                         
                                         <h4 class="card-title pricing-card-title">+2 Year Maintenance FREE</h4>
-                                        <h5 class="card-title pricing-card-title">Maintainence: +₹2000<small class="text-muted fw-light">/year</small></h2>
                                         <ul class="list-unstyled mt-3 mb-4">
                                             <li>*Unlimited Pages(Max 50)</li>
                                             <li>Paid Hosting/Deployment</li>
@@ -1003,11 +1017,10 @@
                                         <h4 class="my-0 mb-2" style="font-weight: 600;">Custom Apps</h4>
                                         <h5 class="text-muted">Mobile & Desktop App Dev</h5>
                                     </div>
-                                    <h1 class="mt-4 card-title pricing-card-title text-white bg-info shadow p-2" style="width: 104%; margin-left: -2%; border-radius: 4px;">Starting @ ₹8500/-</h1>
+                                    <h3 class="mt-4 card-title pricing-card-title text-white bg-info shadow p-2" style="width: 104%; margin-left: -2%; border-radius: 4px;">Starting @ ₹8500/-</h3>
                                     <div class="card-body">
                                         
                                         <h4 class="card-title pricing-card-title">+2 Year Maintenance FREE</h4>
-                                        <h5 class="card-title pricing-card-title">Maintainence: +₹3000<small class="text-muted fw-light">/year</small></h2>
                                         <ul class="list-unstyled mt-3 mb-4">
                                             <li>*Unlimited Pages(Max 50)</li>
                                             <li>Paid Hosting/Deployment</li>
